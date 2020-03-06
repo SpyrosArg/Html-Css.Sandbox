@@ -1,0 +1,19 @@
+.orange-container {
+  --main-text: 18px;
+}
+.orange-container:hover {
+  --main-text: 22px;
+}
+.red-container:hover {
+  --main-text: 26px;
+}
+.title {
+  font-size: var(--title-text);
+}
+.content {
+  font-size: var(--main-text);
+}
+
+.container:hover {
+  --main-text: 18px;
+}

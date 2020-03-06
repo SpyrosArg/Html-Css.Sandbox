@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #eee;
+  padding: 30px;
+  font: 500 14px sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+.orange-container {
+  background: orange;
+}
+
+.red-container {
+  background: red;
+}
+
+.red-container,
+.orange-container {
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.container {
+  background: blue;
+  padding: 20px;
+  color: white;
+}
+
+p {
+  transition: 0.4s;
+}
+
+.title {
+  font-weight: bold;
+}
